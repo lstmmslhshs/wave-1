@@ -1,0 +1,8 @@
+deposit = input("deposit into account: ")
+deposit = float(deposit)
+one = (deposit * 1.04)
+two = (one * 1.04)
+three = (two * 1.04)
+print ( "savings after one year: " + "%.2f" % one)
+print ( "savings after two year: " + "%.2f" % two)
+print ( "savings after three year: " + "%.2f" % three)
